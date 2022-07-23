@@ -39,6 +39,12 @@ Grant all privileges to the user
 ```
 GRANT ALL PRIVILEGES ON *.* TO 'raj'@'localhost' WITH GRANT OPTION;
 ```
+```
+FLUSH PRIVILEGES;
+```
+```
+EXIT;
+```
 
 To Run PHPMyAdmin
 
